@@ -6,6 +6,7 @@ const User = require('../models/User');
 
 // POST /api/auth/signup
 router.post('/signup', async (req, res) => {
+    console.log("➡️ Signup Body:", req.body);
   const { name, email, password, role } = req.body;
 
   try {
@@ -26,6 +27,7 @@ router.post('/signup', async (req, res) => {
 
     res.status(201).json({ token, user: { id: user._id, name: user.name, role: user.role } });
   } catch (err) {
+    console.error("❌ Signup Error:", err.message);
     res.status(500).json({ message: 'Signup error', error: err.message });
   }
 });
