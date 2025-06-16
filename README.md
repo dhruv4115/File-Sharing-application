@@ -56,7 +56,7 @@ file-sharing-app/
 ## ⚙️ How to Run Locally
 
 ```bash
-   git clone https://github.com/dhruv4115/File-Sharing-App.git
+   git clone https://github.com/dhruv4115/File-Sharing-application.git
    cd file-sharing-app/backend
    npm install
 ```
@@ -94,7 +94,7 @@ file-sharing-app/
 
 Have suggestions or questions?
 
-- Create an [issue](https://github.com/dhruv4115/File-Sharing-App/issues)
+- Create an [issue](https://github.com/dhruv4115/File-Sharing-application/issues)
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/dhruv-kumar-tiwari-359a431aa/) 
 - Or drop me an email: `tiwaridhruv4146@gmail.com`
 
